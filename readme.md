@@ -4,6 +4,6 @@ The datasource is based on daily top trending YouTube videos that occurred in Gr
 
 We posed the question: “For top videos originating in Great Britain, how long do videos typically stay in ‘trending’ status?” To help answer this question, we created a histogram to categorize the trending times of the top videos. We hypothesized that the data would be skewed right: out expectation was that a large number of videos would be popular for a short period of time, and that a small number of videos would be in ‘trending’ status for a longer period of time.
 
-< insert histogram>
+![Histogram](https://github.com/BrianBeeler/youtube_cs/blob/master/histogram.png?raw=true)
 
 We found that videos trend for between 1 and 40 days, with the mean being 11.5 days. The data appears to have an exponential decay from day 1 to day 40 in number of days in which a video trend. However, videos that trended for between 6 and 14 days did not follow this decay curve. Further analysis will be required to understand the reasons for this anomaly.
